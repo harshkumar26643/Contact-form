@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body><div>
-    <h1>Contect form</h1>
+    <h1>Contact form</h1>
     <p>Please fill the all deatials</p>
 </div>
 <form action="">
