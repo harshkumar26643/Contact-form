@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contect form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><div>
+    <h1>Contect form</h1>
+    <p>Please fill the all deatials</p>
+</div>
+<form action="">
+    <p class="name">
+        Your name: <br>
+        <label for="name"></label>
+        <input type="text" id="name" placeholder="Your full name">
+    </p>
+    <p class="DOB">
+        Your DOB <br>
+        <input type="number" name="email" placeholder="Enter your DOB">
+    </p>
+    
+    <p class="email">
+        Your email <br>
+        <input type="email" name="email" placeholder="Enter your email">
+    </p>
+    <p class="password">
+        Create Password: <br>
+        <input type="password" name="password" placeholder="Enter password">
+    </p>
+    <p class="password">
+       Confirm password: <br>
+        <input type="password" name=" reenter password" placeholder=" Confirm your password">
+    </p>
+    <p class="number">
+        Your mobile number: <br>
+        <input type="text" placeholder="Enter your mobile number">
+    </p>
+    <p class="message">
+        Your message to us: <br>
+        <textarea name="message" id="" cols="40" rows="5" placeholder="Enter your query here"></textarea>
+
+    </p>
+    <p>
+        Select how you want updates: <br>
+        <select name="select" id="">
+            <option value="choose">--Please choose one option--</option>
+            <option value="op1">message</option>
+            <option value="op2">call</option>
+            <option value="op3">email</option>
+        </select>
+    </p>
+    <input type="Submit" value="submit">
+    <input type="Reset" value="reset">
+</form>
+</body>
+</html>
